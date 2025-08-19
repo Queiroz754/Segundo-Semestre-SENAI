@@ -1,0 +1,77 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro html</title>
+</head>
+<body>
+    <h1 id="sobre">Hello World</h1>
+    <h2>Aqui tem um H2</h2>
+    <h3>Aqui tem um h3</h3>
+    <p>Esse e um paragrafo de texto.</p>
+    <p>Um paragrafo com <em>enfase</em></p>
+    <p>Outro paragrsfo com <strong>enfase</strong></p>
+    <p>H<sub>2</sub>O</p>
+    <p>10<sup>2</sup>=100</p>
+    <!--* Comentario  -->
+    <a href="#sobre">sobre</a>      <!-- href direciona a pagina para uma tag com o id expecificado Exemplo: href="id"-->    
+    <a href="teste.pdf" download>Baixar o pdf</a>
+    <img src="tiririca.jpg" alt="O tiririca dando um sorriso bem gostoso" width="500px">
+
+    <figure>
+        <img src="tiririca.jpg" alt="O tiririca dando um sorriso bem gostoso" height="200px">
+        <figcaption>Imagem do tiririca dando um sorriso bem gostoso </figcaption>
+    </figure>
+    <video controls width="480">
+        <source src="apresentacao.mp4" type="video/mp4">
+    </video>
+
+
+    <!--? lista nao ordenada  -->
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+
+    <!--! lista ordenada  -->
+    <ol>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ol>
+
+    <form>
+        <label for="nome">Nome</label>
+        <input id= "nome" type="text" required>
+
+        <label for="Email">Email</label>
+        <input id="email" type="email" name="" placeholder="email@email.com">
+
+        <label>Tipo</label>
+        <label>
+            <input type="radio" name="" id="" checked>
+            Aluno
+        </label>
+        <label>
+            <input type="radio" name="" id="">
+            Docente
+        </label>
+
+        <label for="">Interesses</label>
+        <select name="" id="" multiple>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>Banco de dados</option>
+        </select>
+        <label for="arquivo">Anexar arquivo</label>
+        <input type="file" name="" id="arquivo">
+
+        <label for="senha">Senha</label>
+        <input type="password" name="" id="senha" required>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

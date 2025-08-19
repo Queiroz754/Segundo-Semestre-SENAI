@@ -1,0 +1,74 @@
+* { /* Seletor universal, aplica para todos os elementos */
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte padrão */
+    margin: 0; /* Remove margem padrão dos elementos */
+    padding: 0; /* Remove o preenchimento (padding) padrão dos elementos */
+    box-sizing: border-box; /* Faz com que padding e borda sejam incluídos no cálculo de largura/altura */
+}
+
+body { /* Define estilos para o corpo da página */
+    background-color: #0b0e14; /* Cor de fundo escura */
+    color: #ffffff; /* Cor do texto padrão branca */
+}
+
+/* Comentário de exemplo explicando margin com múltiplos valores:
+.banner {
+    padding: 50px; /* Espaço interno igual em todos os lados 
+    margin: 50px 30px 20px 10px; Margem: topo, direita, baixo, esquerda 
+    margin-top: 50px;  Margem no topo 
+    margin-right: 30px;  Margem à direita 
+    margin-bottom: 20px;  Margem embaixo 
+    margin-left: 10px;  Margem à esquerda 
+ */
+
+.banner  { /* Define o estilo para a área de destaque/banner */
+    background-image: linear-gradient(180deg, rgba(11,14,20,0), rgba(11,14,20,0.6)), url("https://picsum.photos/600/300/?blur=1"); /* Gradiente sobre uma imagem de fundo */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-size: cover; /* Faz a imagem cobrir todo o elemento */
+    
+    padding: 20px; /* Espaço interno */
+    text-align: center; /* Centraliza o texto dentro do banner */
+}
+
+.banner p { /* Parágrafos dentro do banner */
+    margin: 5px 0 0; /* Margem: topo 5px, lados 0, baixo 0 */
+}
+
+.destaque { /* Classe para texto em destaque */
+    color: #0a7cff; /* Cor azul para o texto */
+}
+
+#especial { /* Elemento com id="especial" */
+    background-color: #101522; /* Fundo azul escuro */
+    padding: 5px; /* Espaço interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    width: 500px; /* Largura fixa de 500px */
+}
+
+img { /* Todas as imagens */
+    max-width: 50%; /* Limita a largura a no máximo 50% do container */
+    border-radius: 8px; /* Bordas levemente arredondadas */
+}
+
+table { /* Todas as tabelas */
+    border-collapse: collapse; /* Junta as bordas da tabela */
+    width: 100%; /* Largura total */
+    margin-top: 10px; /* Espaço acima da tabela */
+}
+
+th, td { /* Células de cabeçalho (th) e normais (td) */
+    border: 1px solid #1a2030; /* Borda fina de cor escura */
+    padding: 8px; /* Espaço interno */
+}
+
+th { /* Cabeçalho da tabela */
+    background-color: #1a2030; /* Fundo escuro */
+}
+
+.botao { /* Classe para botões */
+    background-color: #0a7cff; /* Fundo azul */
+    border: none; /* Remove a borda padrão */
+    padding: 10px 15px; /* Espaço interno: 10px em cima/baixo e 15px nas laterais */
+    border-radius: 6px; /* Bordas arredondadas */
+    color: #ffffff; /* Texto branco */
+}

@@ -1,0 +1,112 @@
+img {
+    width: 200px;
+}
+
+.fantasma{
+    width: 130px;
+}
+
+.div-flex {
+    display: flex; 
+}
+
+.margin-bgc {
+    margin-bottom: 50px;
+    background-color: aqua;
+}
+.space-between {
+    justify-content: space-between;
+}
+.space-around {
+    justify-content: space-around;
+}
+.center {
+    justify-content: center;
+}
+
+.flex-end { 
+    justify-content: flex-end;
+}
+
+.amarelo{
+    background-color: yellow;
+}
+
+.windth-960 {
+    width: 960px;
+}
+
+.coluna {
+    flex-direction: column;
+    height: 960px;
+    align-items: flex-start;
+}
+
+.roxo {
+    flex-direction: row;
+    background-color: darkmagenta;
+}
+
+.ultimoDesafio {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 960px;
+    background-color: aqua;
+}
+
+/*
+.exemplo{
+    justify-content: baseline;         Alinha os itens de acordo com a linha de base do texto (pouco comum no justify-content, mais usado no align-items) 
+    justify-content: center;           Centraliza os itens horizontalmente no contêiner 
+    justify-content: end;              Alinha todos os itens ao final (lado direito se o texto for LTR) 
+    justify-content: first baseline;   Alinha os itens pela primeira linha de base encontrada 
+    justify-content: flex-end;         Alinha os itens ao final do eixo principal (lado direito no padrão LTR) 
+    justify-content: flex-start;       Alinha os itens ao início do eixo principal (lado esquerdo no padrão LTR) 
+    justify-content: last baseline;    Alinha os itens pela última linha de base encontrada 
+    justify-content: left;             Alinha os itens à esquerda (mesmo em layout flex) 
+    justify-content: right;            Alinha os itens à direita 
+    justify-content: safe;             Garante que o alinhamento não corte o conteúdo visível, ajustando se necessário *
+    justify-content: space-around;     Distribui os itens com espaçamento igual ao redor deles (espaço à esquerda e à direita de cada item) 
+    justify-content: space-between;    Distribui os itens ocupando todo o espaço, deixando o primeiro grudado no início e o último grudado no final
+}*/
+/*
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+img {
+    height: 200px;
+}
+
+.fantasma {
+    height: 170px;
+}
+
+.div-flex {
+    background-color: aqua;
+    display: flex;
+}
+
+.hadear {
+   justify-content: space-between; 
+}
+
+.roxo   {
+    flex-direction: row;
+    background-color: blueviolet;
+}
+
+.amarelo {
+    background-color: gold;
+}
+
+
+
+.header {
+    justify-content: space-between;
+}
+
+.footer {
+    justify-content: space-around;
+}*/
